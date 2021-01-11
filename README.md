@@ -28,4 +28,6 @@ The scripts in this repository are used to generate the zip files found under re
 _Note:_ running the pack-creator for the first time might take a while since it scrapes the configure pokeapi instance for all the data needed to translate mobs/moves/items
 
 #### DO NOT configure the official pokeapi instance as your API!
-Please set up a self-hosted pokeapi instance for the data-scraper! This generates many requests and you wouldn't want to bombard the official pokeapi servers, would you?
+Please set up a self-hosted pokeapi instance for the data-scraper! [Take a look at the github page for pokeapi how to setup your own instance.](https://github.com/PokeAPI/pokeapi#setup-)
+
+These scripts generate many requests and you wouldn't want to bombard the official pokeapi servers, would you?
