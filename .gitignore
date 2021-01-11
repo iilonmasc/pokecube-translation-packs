@@ -1,0 +1,12 @@
+base_*.json
+
+*cache
+dist
+
+resourcepack_*
+config.py
+
+*.jar
+
+__pycache__
+.vscode

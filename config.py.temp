@@ -1,0 +1,37 @@
+# Configuration file
+
+# Languages to build packs for, the pokeapi knows the following languages (with varying completed translations):
+## - ja-Hrkt
+## - roomaji
+## - ko
+## - zh-Hant
+## - fr
+## - de
+## - en
+## - es
+## - it
+## - cs
+## - ja
+## - zh-Hans
+## - pt-BR
+
+# Configured to build french (fr) and german (de)
+languages = ['fr', 'de']
+
+# DO NOT use the official pokeapi! This script scrapes a lot of data, a separate instance should be used, preferrably a self-hosted one!
+# for more info on how to set up your own instance, refer to https://github.com/PokeAPI/pokeapi
+
+# pokeapi to use
+api = 'http://localhost:8080'
+
+# Output directory of built resource packs (will be created if not found)
+dist_directory = 'dist'
+
+# Cache directory for API scraper
+cache_directory = 'translation_cache'
+
+# object limit per api call, values above 50 might take a long while or even timeout, depending on the API
+limit = 20
+
+# enable debug messages
+debug = False
